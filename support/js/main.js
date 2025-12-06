@@ -1,10 +1,9 @@
-// Main JS for support/index.html (demo-only)
 (function () {
     'use strict';
 
     console.info('support/js/main.js loaded');
 
-    // Active link highlighting: pick exactly one link whose section top is closest to nav bottom
+    // Active link highlighting
     var navLinks = document.querySelectorAll('.topnav a[href^="#"]');
     var navEl = document.querySelector('.topnav');
     function setActiveLink() {
