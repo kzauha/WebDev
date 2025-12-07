@@ -515,6 +515,8 @@ a:hover {
   display: block;
 }
 .alert__title {
+.kb-suggestions { /* removed - suggestions container removed from markup */ }
+#kb-suggestion-list { /* placeholder - suggestions container removed */ }
   font-size: 12pt;
   display: block;
 }
